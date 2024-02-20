@@ -1,0 +1,12 @@
+{
+  "name": "@zinkawaii/stylelint-config",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "KazariEX",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KazariEX/stylelint-config.git"
+  },
+  "type": "module"
+}
