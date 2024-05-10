@@ -6,7 +6,7 @@ export default function() {
     return {
         extends: [
             "stylelint-config-standard-scss",
-            "stylelint-config-html/vue"
+            "stylelint-config-html"
         ],
         plugins: [
             "stylelint-order",
