@@ -1,18 +1,20 @@
 {
   "name": "@zinkawaii/stylelint-config",
   "version": "0.1.4",
-  "main": "index.js",
   "author": "KazariEX",
+  "repository": "KazariEX/stylelint-config",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/KazariEX/stylelint-config.git"
-  },
   "type": "module",
+  "main": "index.js",
   "dependencies": {
     "@stylistic/stylelint-plugin": "^2.1.2",
     "stylelint-config-html": "^1.1.0",
     "stylelint-config-standard-scss": "^13.1.0",
     "stylelint-order": "^6.0.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.23.2",
+    "@zinkawaii/eslint-config": "^0.1.3",
+    "eslint": "^9.8.0"
   }
 }
