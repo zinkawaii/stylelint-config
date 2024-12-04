@@ -1,7 +1,7 @@
 {
   "name": "@zinkawaii/stylelint-config",
   "type": "module",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "author": "KazariEX",
   "license": "MIT",
   "repository": "KazariEX/stylelint-config",
