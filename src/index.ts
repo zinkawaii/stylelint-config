@@ -3,13 +3,13 @@ import order from "./lib/order";
 import standard from "./lib/standard";
 import stylistic from "./lib/stylistic";
 
-export default function(config: Config): Config {
+export default function(config: Config = {}): Config {
     return {
         ...config,
         extends: [
             "stylelint-config-standard-scss",
             "stylelint-config-html",
-            ...config.extends
+            ...config.extends ?? []
         ],
         plugins: [
             "stylelint-order",
@@ -20,7 +20,7 @@ export default function(config: Config): Config {
             ...order,
             ...standard,
             ...stylistic,
-            ...config.rules
+            ...config.rules ?? {}
         }
     };
 }
