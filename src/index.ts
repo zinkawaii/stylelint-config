@@ -14,7 +14,11 @@ export default function(config: Config = {}): Config {
         plugins: [
             "stylelint-order",
             "@stylistic/stylelint-plugin",
-            ...Array.isArray(config.plugins) ? config.plugins : [config.plugins]
+            ...config.plugins
+                ? Array.isArray(config.plugins)
+                    ? config.plugins
+                    : [config.plugins]
+                : []
         ],
         rules: {
             ...order,
