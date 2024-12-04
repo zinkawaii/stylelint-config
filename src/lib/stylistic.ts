@@ -1,6 +1,6 @@
-import { withPrefix } from "../utils/index.js";
+import { prefixary } from "../utils/index";
 
-export default withPrefix("@stylistic", {
+export default prefixary("@stylistic", {
     "block-closing-brace-empty-line-before": "never",
     "block-closing-brace-newline-after": "always",
     "block-closing-brace-newline-before": "always-multi-line",
