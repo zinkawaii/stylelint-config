@@ -20,7 +20,8 @@
     "dev": "tsdown -w",
     "prepack": "pnpm run build",
     "release": "bumpp --no-push -c \"release: v%s\"",
-    "eslint": "eslint ."
+    "eslint": "eslint .",
+    "propscheck": "tsx watch scripts/propscheck.ts"
   },
   "dependencies": {
     "@stylistic/stylelint-plugin": "^3.1.2",
@@ -33,7 +34,9 @@
     "@zinkawaii/eslint-config": "^0.2.0",
     "bumpp": "^10.0.1",
     "eslint": "^9.19.0",
+    "known-css-properties": "^0.36.0",
     "stylelint": "^16.14.1",
-    "tsdown": "^0.8.0"
+    "tsdown": "^0.8.0",
+    "tsx": "^4.19.3"
   }
 }
