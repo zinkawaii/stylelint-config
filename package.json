@@ -2,7 +2,7 @@
   "name": "@zinkawaii/stylelint-config",
   "type": "module",
   "version": "0.3.0",
-  "packageManager": "pnpm@10.2.0",
+  "packageManager": "pnpm@10.8.1",
   "author": "KazariEX",
   "license": "MIT",
   "repository": "KazariEX/stylelint-config",
@@ -30,12 +30,12 @@
     "stylelint-order": "^6.0.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.1.1",
-    "@zinkawaii/eslint-config": "^0.2.0",
-    "bumpp": "^10.0.1",
-    "eslint": "^9.19.0",
+    "@antfu/eslint-config": "^4.12.0",
+    "@zinkawaii/eslint-config": "^0.2.2",
+    "bumpp": "^10.1.0",
+    "eslint": "^9.24.0",
     "known-css-properties": "^0.36.0",
-    "stylelint": "^16.14.1",
+    "stylelint": "^16.18.0",
     "tsdown": "^0.8.0",
     "tsx": "^4.19.3"
   }
