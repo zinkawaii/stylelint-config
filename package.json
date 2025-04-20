@@ -20,8 +20,7 @@
     "dev": "tsdown -w",
     "prepack": "pnpm run build",
     "release": "bumpp --no-push -c \"release: v%s\"",
-    "eslint": "eslint .",
-    "propscheck": "tsx watch scripts/propscheck.ts"
+    "test": "vitest"
   },
   "dependencies": {
     "@stylistic/stylelint-plugin": "^3.1.2",
@@ -38,11 +37,12 @@
     "known-css-properties": "^0.36.0",
     "stylelint": "^16.18.0",
     "tsdown": "^0.8.0",
-    "tsx": "^4.19.3"
+    "vitest": "^3.1.1"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "esbuild"
+      "esbuild",
+      "unrs-resolver"
     ]
   }
 }

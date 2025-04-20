@@ -45,9 +45,9 @@ importers:
       tsdown:
         specifier: ^0.8.0
         version: 0.8.0(typescript@5.5.4)
-      tsx:
-        specifier: ^4.19.3
-        version: 4.19.3
+      vitest:
+        specifier: ^3.1.1
+        version: 3.1.1(@types/debug@4.1.12)(jiti@2.4.2)(tsx@4.19.3)(yaml@2.7.1)
 
 packages:
 
@@ -5312,6 +5312,7 @@ snapshots:
       get-tsconfig: 4.10.0
     optionalDependencies:
       fsevents: 2.3.3
+    optional: true
 
   type-check@0.4.0:
     dependencies:
