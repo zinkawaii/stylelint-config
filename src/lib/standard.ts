@@ -6,8 +6,8 @@ export default {
     "no-empty-source": null,
     "selector-id-pattern": null,
     "selector-pseudo-class-no-unknown": [true, {
-        ignorePseudoClasses: ["deep", "slotted"]
+        ignorePseudoClasses: ["deep", "slotted"],
     }],
     "scss/at-if-closing-brace-newline-after": null,
-    "scss/at-if-closing-brace-space-after": null
+    "scss/at-if-closing-brace-space-after": null,
 };

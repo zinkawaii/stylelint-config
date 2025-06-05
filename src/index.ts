@@ -9,7 +9,7 @@ export default function(config: Config = {}): Config {
         extends: [
             "stylelint-config-standard-scss",
             "stylelint-config-html",
-            ...config.extends ?? []
+            ...config.extends ?? [],
         ],
         plugins: [
             "stylelint-order",
@@ -18,13 +18,13 @@ export default function(config: Config = {}): Config {
                 ? Array.isArray(config.plugins)
                     ? config.plugins
                     : [config.plugins]
-                : []
+                : [],
         ],
         rules: {
             ...order,
             ...standard,
             ...stylistic,
-            ...config.rules ?? {}
-        }
+            ...config.rules ?? {},
+        },
     };
 }

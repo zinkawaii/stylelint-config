@@ -54,5 +54,5 @@ export default prefixary("@stylistic", {
     "string-quotes": "double",
     "unit-case": "lower",
     "value-list-comma-space-after": "always-single-line",
-    "value-list-comma-space-before": "never"
+    "value-list-comma-space-before": "never",
 });

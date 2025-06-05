@@ -7,8 +7,8 @@ const order = [
             "contain",
             "container",
             "container-name",
-            "container-type"
-        ]
+            "container-type",
+        ],
     },
     "display",
     {
@@ -20,8 +20,8 @@ const order = [
             "flex-flow",
             "flex-grow",
             "flex-shrink",
-            "flex-wrap"
-        ]
+            "flex-wrap",
+        ],
     },
     {
         groupName: "grid",
@@ -43,8 +43,8 @@ const order = [
             "grid-template",
             "grid-template-areas",
             "grid-template-columns",
-            "grid-template-rows"
-        ]
+            "grid-template-rows",
+        ],
     },
     {
         groupName: "layout",
@@ -72,8 +72,8 @@ const order = [
             "column-width",
             "order",
             "float",
-            "clear"
-        ]
+            "clear",
+        ],
     },
     {
         groupName: "position",
@@ -93,8 +93,8 @@ const order = [
             "top",
             "right",
             "bottom",
-            "left"
-        ]
+            "left",
+        ],
     },
     {
         groupName: "size",
@@ -111,8 +111,8 @@ const order = [
             "max-height",
             "max-block-size",
             "max-inline-size",
-            "aspect-ratio"
-        ]
+            "aspect-ratio",
+        ],
     },
     {
         groupName: "margin",
@@ -124,8 +124,8 @@ const order = [
             "margin-right",
             "margin-bottom",
             "margin-left",
-            "margin-trim"
-        ]
+            "margin-trim",
+        ],
     },
     {
         groupName: "padding",
@@ -136,8 +136,8 @@ const order = [
             "padding-top",
             "padding-right",
             "padding-bottom",
-            "padding-left"
-        ]
+            "padding-left",
+        ],
     },
     {
         groupName: "border",
@@ -182,16 +182,16 @@ const order = [
             "border-top-left-radius",
             "border-top-right-radius",
             "border-bottom-right-radius",
-            "border-bottom-left-radius"
-        ]
+            "border-bottom-left-radius",
+        ],
     },
     {
         groupName: "box",
         properties: [
             "box-decoration-break",
             "box-shadow",
-            "box-sizing"
-        ]
+            "box-sizing",
+        ],
     },
     {
         groupName: "outline",
@@ -200,8 +200,8 @@ const order = [
             "outline-width",
             "outline-style",
             "outline-color",
-            "outline-offset"
-        ]
+            "outline-offset",
+        ],
     },
     {
         groupName: "background",
@@ -220,8 +220,8 @@ const order = [
             "background-size",
             "backdrop-filter",
             "backface-visibility",
-            "clip-path"
-        ]
+            "clip-path",
+        ],
     },
     {
         groupName: "mask",
@@ -242,8 +242,8 @@ const order = [
             "mask-position",
             "mask-repeat",
             "mask-size",
-            "mask-type"
-        ]
+            "mask-type",
+        ],
     },
     {
         groupName: "text",
@@ -300,16 +300,16 @@ const order = [
             "text-spacing-trim",
             "text-transform",
             "text-wrap",
-            "direction"
-        ]
+            "direction",
+        ],
     },
     {
         groupName: "color",
         properties: [
             "color",
             "color-interpolation",
-            "color-scheme"
-        ]
+            "color-scheme",
+        ],
     },
     {
         groupName: "animation",
@@ -354,24 +354,24 @@ const order = [
             "will-change",
             "rotate",
             "scale",
-            "translate"
-        ]
+            "translate",
+        ],
     },
     {
         groupName: "counter",
         properties: [
             "counter-increment",
             "counter-reset",
-            "counter-set"
-        ]
+            "counter-set",
+        ],
     },
     {
         groupName: "image",
         properties: [
             "image-orientation",
             "image-rendering",
-            "image-resolution"
-        ]
+            "image-resolution",
+        ],
     },
     {
         groupName: "list",
@@ -379,8 +379,8 @@ const order = [
             "list-style",
             "list-style-image",
             "list-style-position",
-            "list-style-type"
-        ]
+            "list-style-type",
+        ],
     },
     {
         groupName: "overscroll",
@@ -389,8 +389,8 @@ const order = [
             "overscroll-behavior-block",
             "overscroll-behavior-inline",
             "overscroll-behavior-x",
-            "overscroll-behavior-y"
-        ]
+            "overscroll-behavior-y",
+        ],
     },
     {
         groupName: "scroll",
@@ -416,24 +416,24 @@ const order = [
             "scroll-snap-type",
             "scroll-timeline",
             "scroll-timeline-axis",
-            "scroll-timeline-name"
-        ]
+            "scroll-timeline-name",
+        ],
     },
     {
         groupName: "scrollbar",
         properties: [
             "scrollbar-color",
             "scrollbar-gutter",
-            "scrollbar-width"
-        ]
+            "scrollbar-width",
+        ],
     },
     {
         groupName: "shape",
         properties: [
             "shape-image-threshold",
             "shape-margin",
-            "shape-outside"
-        ]
+            "shape-outside",
+        ],
     },
     "accent-color",
     "appearance",
@@ -467,13 +467,13 @@ const order = [
     "user-select",
     "writing-mode",
     "z-index",
-    "zoom"
+    "zoom",
 ];
 
 export default {
     "order/order": [
         "custom-properties",
-        "declarations"
+        "declarations",
     ],
-    "order/properties-order": order
+    "order/properties-order": order,
 };
