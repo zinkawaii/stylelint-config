@@ -2,7 +2,7 @@
   "name": "@zinkawaii/stylelint-config",
   "type": "module",
   "version": "0.3.2",
-  "packageManager": "pnpm@10.12.1",
+  "packageManager": "pnpm@10.13.1",
   "description": "Utakata na Shiawase",
   "author": "KazariEX",
   "license": "MIT",

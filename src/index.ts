@@ -24,7 +24,7 @@ export default function(config: Config = {}): Config {
             ...order,
             ...standard,
             ...stylistic,
-            ...config.rules ?? {},
+            ...config.rules,
         },
     };
 }
