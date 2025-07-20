@@ -9,6 +9,6 @@ export default {
     "scss/at-if-closing-brace-space-after": null,
     "selector-id-pattern": null,
     "selector-pseudo-class-no-unknown": [true, {
-        ignorePseudoClasses: ["deep", "slotted"],
+        ignorePseudoClasses: ["deep", "global", "slotted"],
     }],
 };
