@@ -186,6 +186,21 @@ const order = [
         ],
     },
     {
+        groupName: "corner",
+        properties: [
+            "corners",
+            "corner-shape",
+            "corner-top-shape",
+            "corner-right-shape",
+            "corner-bottom-shape",
+            "corner-left-shape",
+            "corner-top-left-shape",
+            "corner-top-right-shape",
+            "corner-bottom-right-shape",
+            "corner-bottom-left-shape",
+        ],
+    },
+    {
         groupName: "box",
         properties: [
             "box-decoration-break",

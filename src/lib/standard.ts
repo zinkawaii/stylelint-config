@@ -5,6 +5,9 @@ export default {
     "no-descending-specificity": null,
     "no-duplicate-selectors": null,
     "no-empty-source": null,
+    "property-no-unknown": [true, {
+        ignoreProperties: ["corners", /^corner-/],
+    }],
     "scss/at-if-closing-brace-newline-after": null,
     "scss/at-if-closing-brace-space-after": null,
     "selector-id-pattern": null,

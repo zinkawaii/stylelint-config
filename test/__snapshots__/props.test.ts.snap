@@ -405,4 +405,17 @@ exports[`check props > missings 1`] = `
 ]
 `;
 
-exports[`check props > mistakens 1`] = `[]`;
+exports[`check props > mistakens 1`] = `
+[
+  "corners",
+  "corner-shape",
+  "corner-top-shape",
+  "corner-right-shape",
+  "corner-bottom-shape",
+  "corner-left-shape",
+  "corner-top-left-shape",
+  "corner-top-right-shape",
+  "corner-bottom-right-shape",
+  "corner-bottom-left-shape",
+]
+`;
