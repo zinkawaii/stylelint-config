@@ -1,18 +1,18 @@
 shamefullyHoist: true
 
+overrides:
+  vite: 8.0.0-beta.10
+
 catalog:
-  "@stylistic/stylelint-plugin": ^4.0.0
+  "@stylistic/stylelint-plugin": ^5.0.1
   "@zinkawaii/eslint-config": ^0.4.1
   "@zinkawaii/tsconfig": ^0.0.2
-  bumpp: ^10.3.1
-  eslint: ^9.39.1
+  bumpp: ^10.4.0
+  eslint: ^9.39.2
   known-css-properties: ^0.37.0
-  stylelint: ^16.25.0
+  stylelint: ^17.0.0
   stylelint-config-html: ^1.1.0
-  stylelint-config-standard-scss: ^16.0.0
-  stylelint-order: ^7.0.0
-  tsdown: ^0.16.4
-  vitest: ^4.0.8
-
-onlyBuiltDependencies:
-  - esbuild
+  stylelint-config-standard-scss: ^17.0.0
+  stylelint-order: ^7.0.1
+  tsdown: ^0.20.1
+  vitest: ^4.0.18
