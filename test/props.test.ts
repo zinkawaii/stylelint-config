@@ -1,12 +1,10 @@
 import { all } from "known-css-properties";
 import { expect, it } from "vitest";
-import config from "../src/lib/order";
+import config from "../src/rules/order";
 
 it("check props", () => {
-    const logical = /(?:block|inline)-(?:start|end)/;
-
     const filtered = all.filter((name) => {
-        return !name.startsWith("-") && !logical.test(name);
+        return !name.startsWith("-");
     });
 
     const flattened = config["order/properties-order"].flatMap((group) => {

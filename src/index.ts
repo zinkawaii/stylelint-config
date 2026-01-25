@@ -1,7 +1,7 @@
 import type { Config } from "stylelint";
-import order from "./lib/order";
-import standard from "./lib/standard";
-import stylistic from "./lib/stylistic";
+import order from "./rules/order";
+import standard from "./rules/standard";
+import stylistic from "./rules/stylistic";
 
 export default function(config: Config = {}): Config {
     return {
