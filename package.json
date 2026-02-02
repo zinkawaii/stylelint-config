@@ -22,6 +22,9 @@
     "release": "bumpp --no-push -c \"release: v%s\"",
     "test": "vitest"
   },
+  "peerDependencies": {
+    "stylelint": ">=17.0.0"
+  },
   "dependencies": {
     "@stylistic/stylelint-plugin": "catalog:",
     "stylelint-config-html": "catalog:",
