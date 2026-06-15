@@ -27,7 +27,7 @@ export default {
   "@stylistic/function-parentheses-newline-inside": "always-multi-line",
   "@stylistic/function-parentheses-space-inside": "never-single-line",
   "@stylistic/function-whitespace-after": "always",
-  "@stylistic/indentation": 4,
+  "@stylistic/indentation": 2,
   "@stylistic/linebreaks": "unix",
   "@stylistic/media-feature-colon-space-after": "always",
   "@stylistic/media-feature-colon-space-before": "never",
